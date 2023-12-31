@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+   background-image: linear-gradient(135deg, #FF96F9 10%, #C32BAC 100%);
+   background-size: cover;  /* Ajusta el tamaño del fondo para cubrir completamente el área del cuerpo */
+   background-repeat: no-repeat;  /* Evita la repetición del fondo */
+   height: 100vh;  /* Establece la altura del cuerpo al 100% del viewport */
+   margin: 0;  /* Elimina el margen predeterminado del cuerpo */
+ }
+ 
